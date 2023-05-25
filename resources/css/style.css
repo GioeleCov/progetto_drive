@@ -1,0 +1,83 @@
+.b-ground{
+    height: 100vh;
+    background-image:linear-gradient(to left, transparent, rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url('/public/img/b-m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+h1{
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 3px;
+}
+
+h2{
+    letter-spacing: 3px;
+}
+
+*{
+    font-family: 'Dongle', sans-serif;
+    
+}
+
+#s-articles{
+    font-family: 'Satisfy', cursive;
+}
+
+#b-img{
+    height: 50vh;
+    width: 90vh;
+    box-shadow: 2px 2px 5px black;
+}
+
+.custom-card{
+    height: 85vh;
+    box-shadow: 1px 1px 3px rgb(74, 71, 71);
+}
+
+.custom-imgCard{
+    height: 250px;
+}
+
+.box-cards{
+    
+    background-image:linear-gradient(to right, transparent, rgba(255,255,255,1), rgba(0,0,0,0.2)), url('/public/img/colori3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    padding: 150px;
+}
+
+.butt-custom{
+    background-color: rgba(188, 171, 171, 0.772);
+    padding: 3px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 1px 1px 2px black;
+    transition: 0.4s;
+}
+
+.butt-custom:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.f-custom{
+    border-top: 1px solid rgba(128, 128, 128, 0.463);
+}
+
+.f2-custom{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.463);
+}
+
+.b-form{
+    background: radial-gradient(circle, rgba(236,236,236,1) 17%, rgba(197,187,187,0.4767156862745098) 59%);
+    
+}
+
+#bg-det{
+    background: radial-gradient(circle, rgba(236,236,236,1) 17%, rgba(197,187,187,0.4767156862745098) 59%);
+    
+}
